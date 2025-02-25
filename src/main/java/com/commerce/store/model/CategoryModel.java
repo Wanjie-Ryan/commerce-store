@@ -17,4 +17,28 @@ public class CategoryModel {
 
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<ProductModel> products;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Set<ProductModel> getProducts() {
+        return products;
+    }
+
+    public void setProducts(Set<ProductModel> products) {
+        this.products = products;
+    }
 }
