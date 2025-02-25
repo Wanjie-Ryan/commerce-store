@@ -1,0 +1,4 @@
+package com.commerce.store.repository;
+
+public interface Categories {
+}
