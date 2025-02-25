@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
 @Component
-// this code will be executed once the I run the application
+// this code will be executed once I run the application, with the help of commandLineRunner
 public class Dataseeder implements CommandLineRunner {
 
     @Autowired
